@@ -1,36 +1,35 @@
 {
-	"name": "lab1",
-	"version": "1.0.0",
-	"description": "labs_on_web_dev",
-	"main": "./js/index.js",
-	"dependencies": {
-		"eslint-config-metarhia": "^7.0.1",
-		"eslint-plugin-import": "^2.24.2"
-	},
-	"devDependencies": {
-		"eslint": "^7.32.0",
-		"eslint-plugin-prettier": "^4.0.0",
-		"husky": "^7.0.2",
-		"prettier": "2.4.1"
-	},
-	"scripts": {
-		"test": "npm run lint && npm run fmt",
-		"lint": "eslint .",
-		"fmt": "prettier . --write",
-		"prepare": "husky install",
-		"lint:fix": "eslint . --fix"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/GeniusDP/WebDevLabs2021.git"
-	},
-	"keywords": [
-		"labs"
-	],
-	"author": "B. Zaranik",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/GeniusDP/WebDevLabs2021/issues"
-	},
-	"homepage": "https://github.com/GeniusDP/WebDevLabs2021#readme"
+    "name": "lab1",
+    "version": "1.0.0",
+    "description": "labs_on_web_dev",
+    "main": "./js/index.js",
+    "dependencies": {
+        "eslint-config-metarhia": "^7.0.1",
+        "eslint-plugin-import": "^2.24.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.4",
+        "prettier": "^2.5.1"
+    },
+    "scripts": {
+        "lint": "npx eslint ",
+        "fix": "npx eslint --fix . --ignore-path .gitignore",
+        "fmt": "npx prettier --write . --ignore-path .gitignore",
+        "fmt:check": "npx prettier --check . --ignore-path .gitignore"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GeniusDP/WebDevLabs2021.git"
+    },
+    "keywords": [
+        "labs"
+    ],
+    "author": "B. Zaranik",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GeniusDP/WebDevLabs2021/issues"
+    },
+    "homepage": "https://github.com/GeniusDP/WebDevLabs2021#readme"
 }
