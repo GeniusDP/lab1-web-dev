@@ -1,6 +1,8 @@
 name: Format checking
-on: [push, pull_request]
-  
+on:
+  pull_request:
+    branches:
+      - main
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
@@ -10,4 +12,4 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-      - run: npm ci && npm run fmt:check && npm run lint
+      - run: npm ci && npm run lint && npm run fmt:check
