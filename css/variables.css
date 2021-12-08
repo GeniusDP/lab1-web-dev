@@ -2,10 +2,9 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    --semi-white: rgb(229, 230, 185);
-    --white: white;
-    --my-background: rgb(226, 43, 67);
-    --my-orange: orange;
-    --my-green-yellow: greenyellow;
-    --my-green: green;
+    --semi-white: #e5e6b9;
+    --white: #ffffff;
+    --my-orange: #ffa500;
+    --my-green-yellow: #adff2f;
+    --my-green: #008000;
 }
