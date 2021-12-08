@@ -18,7 +18,8 @@
         "fix": "npx eslint --fix . --ignore-path .gitignore",
         "fmt": "npx prettier --write . --ignore-path .gitignore",
         "fmt:check": "npx prettier --check . --ignore-path .gitignore",
-        "browser_sync":"browser-sync start --server --files \"php/*.php,css/*.css,js/*.js,html/*.html,*.*\""
+        "browser_sync": "browser-sync start --server --files \"php/*.php,css/*.css,js/*.js,html/*.html,*.*\"",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git"
