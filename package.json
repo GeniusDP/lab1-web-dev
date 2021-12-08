@@ -17,19 +17,16 @@
         "lint": "npx eslint **/*.js --ignore-path .gitignore --no-error-on-unmatched-pattern",
         "fix": "npx eslint --fix . --ignore-path .gitignore",
         "fmt": "npx prettier --write . --ignore-path .gitignore",
-        "fmt:check": "npx prettier --check . --ignore-path .gitignore"
+        "fmt:check": "npx prettier --check . --ignore-path .gitignore",
+        "browser_sync":"browser-sync start --server --files \"php/*.php,css/*.css,js/*.js,html/*.html,*.*\""
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/GeniusDP/WebDevLabs2021.git"
+        "type": "git"
     },
     "keywords": [
-        "labs"
+        "labs",
+        "lab_1_web_dev"
     ],
     "author": "B. Zaranik",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/GeniusDP/WebDevLabs2021/issues"
-    },
-    "homepage": "https://github.com/GeniusDP/WebDevLabs2021#readme"
+    "license": "ISC"
 }

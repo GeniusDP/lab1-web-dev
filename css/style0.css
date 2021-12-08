@@ -1,12 +1,3 @@
-* {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    --semi-white: rgb(229, 230, 185);
-    --white: white;
-    --my-background: rgb(226, 43, 67);
-}
-
 header,
 footer,
 div,
@@ -85,7 +76,7 @@ li {
 .left-side-bar {
     width: 33.3%;
     min-width: 500px;
-    background: orange;
+    background: var(--my-orange);
 }
 
 .right-side-bar {
@@ -96,7 +87,7 @@ li {
 
 .right-side-bar-upper {
     height: 75%;
-    background: orange;
+    background: var(--my-orange);
 }
 
 .right-side-bar-lower {
@@ -124,11 +115,11 @@ li {
 }
 
 a {
-    color: greenyellow;
+    color: var(--my-green-yellow);
 }
 
 a:visited {
-    color: green;
+    color: var(--my-green);
 }
 
 @keyframes spin {

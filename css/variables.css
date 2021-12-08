@@ -1,0 +1,11 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    --semi-white: rgb(229, 230, 185);
+    --white: white;
+    --my-background: rgb(226, 43, 67);
+    --my-orange: orange;
+    --my-green-yellow: greenyellow;
+    --my-green: green;
+}

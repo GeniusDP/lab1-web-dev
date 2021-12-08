@@ -1,12 +1,3 @@
-* {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    --my-background: rgb(64, 226, 43);
-    --semi-white: rgb(229, 230, 185);
-    --white: white;
-}
-
 header,
 footer,
 div,
