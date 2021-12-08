@@ -10,8 +10,10 @@
     "devDependencies": {
         "eslint": "^7.32.0",
         "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-sonarjs": "^0.11.0",
         "husky": "^7.0.4",
-        "prettier": "^2.5.1"
+        "prettier": "^2.5.1",
+        "sonarjs": "^1.0.0"
     },
     "scripts": {
         "lint": "npx eslint **/*.js --ignore-path .gitignore --no-error-on-unmatched-pattern",
