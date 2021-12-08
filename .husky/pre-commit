@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm lint && npm fix && npm fmt
+npm run lint && npm run fix && npm run fmt:check

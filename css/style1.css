@@ -1,5 +1,5 @@
-*{
-    --my-background: #FFF200;
+* {
+    --my-background: #fff200;
 }
 header,
 footer,
@@ -117,11 +117,11 @@ li {
     margin-top: 20px;
 }
 a {
-    color: var(--my-green-yellow)
+    color: var(--my-green-yellow);
 }
 
 a:visited {
-    color: var(--my-green)
+    color: var(--my-green);
 }
 
 @keyframes spin {
