@@ -14,7 +14,7 @@
         "prettier": "^2.5.1"
     },
     "scripts": {
-        "lint": "npx eslint ",
+        "lint": "npx eslint **/*.js --ignore-path .gitignore --no-error-on-unmatched-pattern",
         "fix": "npx eslint --fix . --ignore-path .gitignore",
         "fmt": "npx prettier --write . --ignore-path .gitignore",
         "fmt:check": "npx prettier --check . --ignore-path .gitignore"
