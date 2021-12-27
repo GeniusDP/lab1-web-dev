@@ -73,7 +73,7 @@ li {
     margin: 20px;
 }
 
-.left-side-bar {
+nav {
     width: 33.3%;
     min-width: 500px;
     background: var(--my-orange);
