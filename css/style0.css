@@ -1,11 +1,13 @@
 * {
     --my-background: #ed161f;
+    --my_black: black;
+    --my_orange: orange;
 }
 header,
 footer,
 div,
 nav {
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 0 5px 0 var(--my_black);
 }
 
 html,
@@ -53,8 +55,8 @@ li {
 
 .inner-header {
     background: var(--white);
-    border: solid 2px black;
-    box-shadow: 0 0 40px 0 black;
+    border: solid 2px var(--my_black);
+    box-shadow: 0 0 40px 0 var(--my_black);
     width: 25%;
     padding: 5px;
     margin-left: 25px;
@@ -68,8 +70,8 @@ li {
 
 .inner-footer {
     background: var(--white);
-    border: solid 2px black;
-    box-shadow: 0 0 40px 0 black;
+    border: solid 2px var(--my_black);
+    box-shadow: 0 0 40px 0 var(--my_black);
     width: 25%;
     padding: 5px;
     float: right;

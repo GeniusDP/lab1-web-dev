@@ -1,12 +1,13 @@
 * {
     --my-background: #1cb24b;
+    --my_greenyellow: greenyellow;
 }
 
 header,
 footer,
 div,
 nav {
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 0 5px 0 var(--my_black);
 }
 
 html,
@@ -54,8 +55,8 @@ li {
 
 .inner-header {
     background: var(--white);
-    border: solid 2px black;
-    box-shadow: 0 0 40px 0 black;
+    border: solid 2px var(--my_black);
+    box-shadow: 0 0 40px 0 var(--my_black);
     width: 25%;
     padding: 5px;
     margin-left: 25px;
@@ -69,8 +70,8 @@ li {
 
 .inner-footer {
     background: var(--white);
-    border: solid 2px black;
-    box-shadow: 0 0 40px 0 black;
+    border: solid 2px var(--my_black);
+    box-shadow: 0 0 40px 0 var(--my_black);
     width: 25%;
     padding: 5px;
     float: right;
@@ -80,7 +81,7 @@ li {
 .left-side-bar {
     width: 33.3%;
     min-width: 500px;
-    background: orange;
+    background: var(--my-orange);
 }
 
 .right-side-bar {
@@ -91,7 +92,7 @@ li {
 
 .right-side-bar-upper {
     height: 75%;
-    background: orange;
+    background: var(--my-orange);
 }
 
 .right-side-bar-lower {
@@ -119,11 +120,11 @@ li {
 }
 
 a {
-    color: greenyellow;
+    color: var(--my_greenyellow);
 }
 
 a:visited {
-    color: green;
+    color: var(--my-green);
 }
 
 @keyframes spin {
