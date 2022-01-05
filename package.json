@@ -16,8 +16,8 @@
         "sonarjs": "^1.0.0"
     },
     "scripts": {
-        "lint": "eslint **/*.js --ignore-path .gitignore --no-error-on-unmatched-pattern",
-        "fix": "eslint --fix **/*.js --ignore-path .gitignore --no-error-on-unmatched-pattern",
+        "lint": "eslint **/*.js --ignore-path .gitignore",
+        "fix": "eslint --fix **/*.js --ignore-path .gitignore",
         "fmt": "prettier --write . --ignore-path .gitignore",
         "fmt:check": "prettier --check . --ignore-path .gitignore",
         "browser_sync": "browser-sync start --server --files \"php/*.php,css/*.css,js/*.js,html/*.html,*.*\"",
