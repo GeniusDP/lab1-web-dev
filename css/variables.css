@@ -1,0 +1,10 @@
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    --semi-white: #e5e6b9;
+    --white: #ffffff;
+    --my-orange: #ffa500;
+    --my-green-yellow: #adff2f;
+    --my-green: #008000;
+}
