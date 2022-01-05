@@ -11,6 +11,7 @@
     "plugins": ["sonarjs"],
     "rules": {
         "semi": ["error", "always"],
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        "no-error-on-unmatched-pattern": 1
     }
 }
